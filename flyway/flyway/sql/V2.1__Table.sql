@@ -1,3 +1,0 @@
-CREATE TABLE MyTable2 (
-    MyColumn VARCHAR(100) NOT NULL
-);
