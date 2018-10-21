@@ -1,3 +1,3 @@
-CREATE TABLE MyTable2 (
+CREATE TABLE Test (
     MyColumn VARCHAR(100) NOT NULL
 );
