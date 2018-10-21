@@ -1,0 +1,3 @@
+CREATE TABLE Test (
+    MyColumn VARCHAR(100) NOT NULL
+);
