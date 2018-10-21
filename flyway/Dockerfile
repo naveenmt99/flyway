@@ -8,7 +8,7 @@ RUN curl -L https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/5.2.0
   && tar -xzf flyway-commandline-5.2.0-linux-x64.tar.gz --strip-components=1 \
   && rm flyway-commandline-5.2.0-linux-x64.tar.gz \
   && ln -s /flyway/flyway /usr/local/bin/flyway
-ADD ./sql /flyway/sql
+ADD ./flyway/sql /flyway/sql
 
 ENTRYPOINT ["flyway"]
 CMD ["-?"]
